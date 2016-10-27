@@ -108,7 +108,7 @@ function displayToc(c) {
     b += '<a href="javascript:toggleDateSort();" title="' + e + '">DATE</a>';
     b += "</td>";
     b += '<td class="toc-header-col3">';
-    b += '<a href="javascript:allPosts();" title="' + k + '"</a>';
+    b += '<a href="javascript:allPosts();" title="' + k + '">LABEL</a>';
     b += "</td>";
     b += "</tr>";
     for (a = 0; a < postTitle.length; a++) "" == c ? (b += '<tr><td class="toc-entry-col1"><a href="' + postUrl[a] + '" title="' + postSum[a] + '">' + postTitle[a] + '</a></td><td class="toc-entry-col2">' + postDate[a] + '</td><td class="toc-entry-col3">' + postLabels[a] + "</td></tr>", d++) :
