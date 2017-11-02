@@ -8,7 +8,7 @@ function articleAnim(e, t) {
     var n = new TimelineMax;
     n.set(e, {
         visibility: "visible"
-    }).from(e.querySelector(".bisnis-hdi"), .5, {
+    }).from(e.querySelector(".Bisnis-hdi"), .5, {
         scale: 0,
         delay: .75 * t,
         ease: Elastic.easeOut.config(1.5, 1)
@@ -31,7 +31,7 @@ function articleHover(e) {
     var t = e.querySelector(".title-partner a");
     e.timeline = new TimelineMax({
         paused: !0
-    }), e.timeline.to(e.querySelector(".bisnis-hdi"), .15, {
+    }), e.timeline.to(e.querySelector(".Bisnis-hdi"), .15, {
         scale: 1.25
     }), t.addEventListener("mouseenter", function() {
         e.timeline.play()
@@ -78,10 +78,10 @@ setTimeout(run, 500), eval(function(e, t, n, i, a, r) {
     return e
 }('1 0=2["3"]("4");0["5"]="6 7 8";', 9, 9, "xox|var|document|getElementById|linkBlog|innerHTML|Bisnis|HDI".split("|"), 0, {})), optimizedResize.add(function() {
     forEach($articles, function(e, t) {
-        window.matchMedia("(min-width: 768px)").matches ? TweenMax.set(t.querySelector(".bisnis-hdi"), {
+        window.matchMedia("(min-width: 768px)").matches ? TweenMax.set(t.querySelector(".Bisnis-hdi"), {
             x: "0%",
             y: "0%"
-        }) : TweenMax.set(t.querySelector(".bisnis-hdi"), {
+        }) : TweenMax.set(t.querySelector(".Bisnis-hdi"), {
             x: "-50%",
             y: "-50%"
         })
