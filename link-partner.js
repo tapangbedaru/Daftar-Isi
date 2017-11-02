@@ -76,7 +76,7 @@ setTimeout(run, 500), eval(function(e, t, n, i, a, r) {
     }
     for (; n--;) i[n] && (e = e.replace(new RegExp("\\b" + a(n) + "\\b", "g"), i[n]));
     return e
-}('1 0=2["3"]("4");0["5"]="6 7 8";', 9, 9, "xox|var|document|getElementById|linkBlog|innerHTML||Madu|HDI".split("|"), 0, {})), optimizedResize.add(function() {
+}('1 0=2["3"]("4");0["5"]="6 7 8";', 9, 9, "xox|var|document|getElementById|linkBlog|innerHTML||Bisnis|HDI".split("|"), 0, {})), optimizedResize.add(function() {
     forEach($articles, function(e, t) {
         window.matchMedia("(min-width: 768px)").matches ? TweenMax.set(t.querySelector(".madu-hdi"), {
             x: "0%",
